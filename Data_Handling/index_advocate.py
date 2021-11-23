@@ -166,7 +166,7 @@ def data_enter(sample_input):
             "Remark":rem,
 
         }
-        res = es.index(index="questions-index", id=doc_id, body=b)
+        res = es.index(index="client-data", id=doc_id, body=b)
     print("Completed indexing....")
 
     print("*********************************************************************************");
