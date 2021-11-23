@@ -200,7 +200,9 @@ if __name__=="__main__":
             break;
 
         print("Query: " +query)
-        json_1=search_result("ALL" ,123,es )
+        
+        json_1=search_result("Deepak" ,123,es )################ For Retrieving data of a particular client ##################
+         #json_1=search_result("ALL" ,123,es )######################## For Retrieving all the data of client stored by advocate ############
        
         end = time.time()
         print(end - start)
