@@ -1,0 +1,27 @@
+.tb-1{
+    border: 1px solid #CCC;
+}
+.t-b2{
+    border: 2px solid #CCC;
+}
+.lb-0{
+    border-left: 0;
+}
+.rb-0{
+    border-right: 0;
+}
+.ub-0{
+    border-top: 0;
+}
+.tb-header{
+background-color: rgba(204, 204, 204, 0.616);
+}
+.case-color{
+    background-color: rgb(239, 243, 9);
+}
+.font-weight{
+    font-weight:bold ;
+}
+.cursor{
+    cursor: pointer;
+}
